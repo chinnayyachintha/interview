@@ -1,0 +1,9 @@
+#git fetch
+
+Command - git fetch origin
+
+git fetch --all
+# git pull
+Tries to merge remote changes with your local ones.
+
+Command - git pull origin master

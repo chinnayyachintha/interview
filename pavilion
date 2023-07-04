@@ -7,3 +7,14 @@ git fetch --all
 Tries to merge remote changes with your local ones.
 
 Command - git pull origin master
+
+What is “git cherry-pick”?
+
+The command git cherry-pick enables you to pick up commits from a branch within a repository and apply it to another branch. This command is useful to undo changes
+when any commit is accidentally made to the wrong branch. Then, you can switch to the correct branch and use this command to cherry-pick the commit.
+
+There are two commands to determine these two different things.
+
+git branch --merged - Returns the list of branches that have been merged into the current branch.
+
+git branch --no-merged - Returns the list of branches that have not been merged.

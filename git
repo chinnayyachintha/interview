@@ -1,0 +1,4 @@
+The Git fetch command only downloads new data from a remote repository.
+
+
+git pull copies changes from a remote repository directly into your working directory
